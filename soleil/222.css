@@ -1,0 +1,43 @@
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 20px auto;
+    background-color: rgb(250, 193, 233);
+  }
+ 
+  label {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  input[type=text], input[type=email], textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 10px 10px 10px rgba(249, 23, 72, 0.2);
+  }
+  
+  input[type=submit] {
+    background-color: #11e93c;
+    color: rgb(136, 34, 225);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  input:invalid {
+    border: 2px solid rgb(148, 24, 71);
+  }
+  input:valid {
+    border: 2px solid rgb(60, 175, 195);
+  }
+   
+ 
